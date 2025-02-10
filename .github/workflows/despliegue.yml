@@ -74,4 +74,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
         
       - name: Push Docker image to Docker Hub
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/hola-mundo-multilenguaje:${{ github.sha }}
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/hola-mundo-multilenguaje2:${{ github.sha }}
